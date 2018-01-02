@@ -10,7 +10,7 @@ I've only tested it on Raspberry Pi 3 running Raspian, but the Python code is to
 
 <b>To use:</b>
 <li>1. Connect the Tarts wireless gateway to the computer via a serial port. </li>
-<li>2. Use a terminal program and the AT command set (see the Tarts documentation) to add your sensors to the gateway's network. (Eventually I add the ability to manage sensors to the program, but I haven't gotten to that yet).</li>
+<li>2. Use a terminal program and the AT command set (see the Tarts documentation) to add your sensors to the gateway's network. (Eventually I will add the ability to manage sensors to the program, but I haven't gotten to that yet).</li>
 <li>3. Run the tartgateway.py script -- it will search all the available serial ports looking for a gateway. Once it finds the gateway, it will create a task in a background thread that continues to monitor the gateway and print out any data recieved from a sensor.</li>
 &nbsp
 <p>
